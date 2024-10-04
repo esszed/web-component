@@ -54,13 +54,13 @@ import {
 const data = ref("");
 </script>
 <style lang="scss">
-// @import "@gov-design-system-ce/styles/lib/tokens";
+@import "@gov-design-system-ce/styles/lib/tokens.css";
 /* General settings. */
-// @import "@gov-design-system-ce/styles/lib/styles";
-// /* Styles for basic layout and containers. */
-// @import "@gov-design-system-ce/styles/lib/layout";
-// /* Styles of individual components. */
-// @import "@gov-design-system-ce/styles/lib/components";
+@import "@gov-design-system-ce/styles/lib/styles.css";
+/* Styles for basic layout and containers. */
+@import "@gov-design-system-ce/styles/lib/layout.css";
+/* Styles of individual components. */
+@import "@gov-design-system-ce/styles/lib/components.css";
 
 // @import "@gov-design-system-ce/fonts/lib/roboto";
 </style>

@@ -17,11 +17,9 @@ defineCustomElements(window, {
     el.removeEventListener(camelCaseToKebab(eventName), cb, opts),
   ce: (eventName, opts) => new CustomEvent(camelCaseToKebab(eventName), opts),
 });
-import TestWidget from "./components/TestWidget.vue";
+import TestWidget from "./components/TestWidget.ce.vue";
 
-const testWidgetEl = defineCustomElement(TestWidget, {
-  styles: [""],
-});
+const testWidgetEl = defineCustomElement(TestWidget, {});
 customElements.define("test-widget", testWidgetEl);
 
 import App from "./App.vue";
