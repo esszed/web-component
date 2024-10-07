@@ -28,11 +28,11 @@
         open="true"
         accessible-label="View more details on the panel content"
         ><h3 slot="headline">Design System</h3>
-        <img slot="img" alt="" src="https://picsum.photos/536/240" />A design
+        <img slot="img" alt="" src="https://picsum.photos/536/240" /><p>A design
         system is a scenario by which a Digital and Information Agency designs
         and develops websites and digital products. The Design System is
         intended to help other teams create digital products more quickly and
-        consistently across government.</gov-card
+        consistently across government.</p></gov-card
       ></gov-container
     >
     <GovButton
@@ -53,14 +53,3 @@ import {
 } from "@gov-design-system-ce/vue";
 const data = ref("");
 </script>
-<style lang="scss">
-@import "@gov-design-system-ce/styles/lib/tokens.css";
-/* General settings. */
-@import "@gov-design-system-ce/styles/lib/styles.css";
-/* Styles for basic layout and containers. */
-@import "@gov-design-system-ce/styles/lib/layout.css";
-/* Styles of individual components. */
-@import "@gov-design-system-ce/styles/lib/components.css";
-
-// @import "@gov-design-system-ce/fonts/lib/roboto";
-</style>
